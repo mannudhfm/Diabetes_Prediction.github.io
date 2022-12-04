@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 # loading the saved models
 
 diabetes_model = pickle.load(open(
-    'C:/Users/mannu/Projects_MCA/DiabetesPrediction/saved models/diabetes_model.sav', 'rb'))
+    'diabetes_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
@@ -14,7 +14,7 @@ with st.sidebar:
     selected = option_menu('Here you can predict your diabetes',
 
                            ['Diabetes Prediction'],
-                           icons=['activity', 'heart', 'person'],
+                           icons=['activity'],
                            default_index=0)
 
 
