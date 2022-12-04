@@ -67,3 +67,27 @@ if (selected == 'Diabetes Prediction'):
             diab_diagnosis = 'The person is not diabetic'
 
     st.success(diab_diagnosis)
+
+    
+    
+page_bg_img = """
+
+<style>
+[data-testid="stAppViewContainer"]{
+background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+background-size: cover;
+}
+
+[data-testid="stHeader"] {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+[data-testid="stSidebar"]{
+    background-image: url("https://images.pexels.com/photos/837258/pexels-photo-837258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+<style/>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+st.sidebar.header(" ")
+
