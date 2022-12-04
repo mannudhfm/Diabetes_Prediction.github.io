@@ -3,4 +3,7 @@ pickleshare=0.7.5=pypi_0
 numpy=1.23.2=pypi_0
 pandas=1.4.3=pypi_0
 sklearn=0.0=pypi_0
-streamlit-option-menu=0.3.2=pypi_0
+streamlit-option-menu=0.3.2
+scikit-learn==1.0.1
+pickle-mixin==1.0.2
+numpy==1.21.4
